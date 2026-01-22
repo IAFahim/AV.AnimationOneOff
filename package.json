@@ -1,0 +1,10 @@
+﻿{
+    "version":  "1.0.0",
+    "name":  "com.av.animationoneoff",
+    "description":  "Data-oriented one-off animation system.",
+    "dependencies":  {
+
+                     },
+    "unity":  "2021.3",
+    "displayName":  "AV Animation OneOff"
+}
