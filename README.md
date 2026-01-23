@@ -1,6 +1,6 @@
 # AV.AnimationOneOff
 
-![Header](documentation_header.svg)
+![Header](Documentation~/documentation_header.svg)
 
 [![Unity](https://img.shields.io/badge/Unity-2022.3%2B-000000.svg?style=flat-square&logo=unity)](https://unity.com)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE.md)
@@ -43,3 +43,18 @@ public class Attacker : MonoBehaviour
 
 - 🧪 **Tests**: Missing.
 - 📘 **Samples**: Included in `Samples~`.
+
+## 🔍 Deep Dive
+
+### PlayableGraph Topology
+The system builds a custom PlayableGraph to mix the Animator's base output with transient action clips.
+
+```mermaid
+graph LR
+    Animator[Animator Controller] -->|Layer 0| Mixer[Animation Layer Mixer]
+    Action[Action ClipPlayable] -->|Layer 1| Mixer
+    Mixer --> Output[Animation Output]
+    
+    style Action fill:#f96,stroke:#333,stroke-width:2px
+    style Mixer fill:#bbf,stroke:#333,stroke-width:2px
+```
