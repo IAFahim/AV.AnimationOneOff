@@ -1,10 +1,31 @@
-﻿{
-    "version":  "1.0.0",
-    "name":  "com.av.animationoneoff",
-    "description":  "Data-oriented one-off animation system.",
-    "dependencies":  {
-
-                     },
-    "unity":  "2021.3",
-    "displayName":  "AV Animation OneOff"
+{
+  "name": "com.av.animationoneoff",
+  "version": "1.0.0",
+  "displayName": "AV Animation OneOff",
+  "description": "Data-oriented one-off animation system.",
+  "unity": "2022.3",
+  "author": {
+    "name": "IAFahim",
+    "email": "iafahim.dev@gmail.com",
+    "url": "https://github.com/IAFahim"
+  },
+  "keywords": [
+    "animation",
+    "one-shot",
+    "burst",
+    "playables"
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "samples": [
+    {
+      "displayName": "Animation OneOff Sample",
+      "description": "Example scene demonstrating one-off animation system",
+      "path": "Samples~"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IAFahim/AV.AnimationOneOff"
+  }
 }

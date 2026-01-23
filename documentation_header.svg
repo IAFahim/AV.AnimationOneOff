@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <rect width="800" height="200" fill="#121212"/>
+  <rect x="0" y="195" width="800" height="5" fill="#E91E63"/>
+  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="bold" font-size="48" fill="#ffffff">
+    AV.AnimationOneOff
+  </text>
+  <text x="50%" y="65%" dominant-baseline="middle" text-anchor="middle" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="300" font-size="20" fill="#aaaaaa">
+    High-Performance One-Shot Animation System
+  </text>
+</svg>
